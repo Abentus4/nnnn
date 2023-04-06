@@ -3,22 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-A{
-    text-decoration: none;
-    color: inherit;
-}
-@media screen and (max-width: 1900px){
-    .wrapper {
-        width: 60%;
-        height: 60%;
-    }
-}
-@media screen and (max-width: 700px){
-    .wrapper {
-        width: 30%;
-        height: 30%;
-    }
-}
+
 .wrapper {
     max-width: 1900px;
     min-width: 1900px;
@@ -365,7 +350,7 @@ A{
     float: left;
     margin-left: 72px;
     margin-top: 69px;
-    width: 216px;
+    width: 217px;
     height: 260px;
     font-size: 20px;
     font-family: "Roboto";
@@ -376,7 +361,7 @@ A{
     float: left;
     margin-top: 69px;
     margin-left: 8px;
-    width: 216px;
+    width: 217px;
     height: 260px;
     font-size: 20px;
     font-family: "Roboto";
@@ -1819,7 +1804,7 @@ A{
     width: 1420px;
     height: 523px;
     margin-left: 240px;
-    background-color: blue;
+    background-color: white;
 }
 .map_yandex{
     width: 1420px;
@@ -1946,7 +1931,22 @@ A{
 
 
 
-
+A{
+    text-decoration: none;
+    color: inherit;
+}
+@media screen and (max-width: 1900px){
+    .wrapper {
+        width: 60%;
+        height: 60%;
+    }
+}
+@media screen and (max-width: 700px){
+    .wrapper {
+        width: 30%;
+        height: 30%;
+    }
+}
 
 @font-face{
     font-family: "Roboto"; /*900*/
